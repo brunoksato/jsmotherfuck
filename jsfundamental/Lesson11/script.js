@@ -9,6 +9,8 @@ var bar = function(){
 
 bar();
 
+var foo = 10;
+
 (function() {
 
 if (confirm("Do you want to go to Google.com")) {
