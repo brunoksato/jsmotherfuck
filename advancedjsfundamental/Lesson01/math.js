@@ -19,7 +19,8 @@ var value = Math.power(2,3),
 	value6 = Math.abs(7),
 	value7 = Math.sin(30),
 	value8 = Math.cos(30),
-	value9 = Math.floor(Math.random());
+	value9 = Math.floor(Math.random()),
+	value10 = Math.PI;
 
 //alert(power);
 
