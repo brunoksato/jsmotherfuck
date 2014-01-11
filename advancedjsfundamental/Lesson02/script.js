@@ -1,6 +1,6 @@
 (function(){
 
-var date = new Date(1997, 5, 1, 22);
+var date = new Date(1997, 5, 1, 22, 0, 0 ,0);
 var date2 = new Date(865220700000);
 
 var months = [
