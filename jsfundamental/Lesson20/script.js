@@ -18,7 +18,7 @@ var mouseHandler = function(evt) {
 eventUtility.addEvent(document, "click", mouseHandler);
 eventUtility.addEvent(document, "mouseover", mouseHandler);
 
-/*var buttons = document.getElementsByTagName("a");
+var buttons = document.getElementsByTagName("a");
 
 var buttonClick = function(evt) {
     var target = eventUtility.getTarget(evt),
@@ -31,9 +31,9 @@ var buttonClick = function(evt) {
 
 for (var i = 0, len = buttons.length; i < len; i = i + 1) {
     eventUtility.addEvent(buttons[i], "click", buttonClick);   
-    //removeEvent(buttons[i], "click", buttonClick);    
+    removeEvent(buttons[i], "click", buttonClick);    
     
-}*/
+}
 
 }());
 
